@@ -1,27 +1,49 @@
 # UserDetailsJwtClient
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.4.
+Same as [postman and curl](https://github.com/tdtc-hrb/UserDetails-jwt#test) test.    
+![chrome shot](https://gitee.com/xiaobin80/cnblogs/raw/master/images/UserDetailsJwtClient.png)
 
-## Development server
+- NodeJS    
+[v16.x](https://nodejs.org/dist/latest-v16.x/)
+- Angular Cli    
+```bash
+npm install -g @angular/cli
+```
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Deploy
+```bash
+npm install --save-dev @angular-devkit/build-angular
+```
 
-## Code scaffolding
+```bash
+npm install --save @angular/animations
+npm install --save @angular/common
+npm install --save @angular/compiler
+npm install --save @angular/core
+npm install --save @angular/forms
+npm install --save @angular/platform-browser
+npm install --save @angular/platform-browser-dynamic
+npm install --save @angular/router
+npm install --save rxjs
+npm install --save tslib
+npm install --save zone.js
+npm install --save @angular/cli
+npm install --save @angular/compiler-cli
+npm install --save @types/jasmine
+npm install --save @types/node
+npm install --save jasmine-core
+npm install --save karma
+npm install --save karma-chrome-launcher
+npm install --save karma-coverage
+npm install --save karma-jasmine
+npm install --save karma-jasmine-html-reporter
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```bash
+npm audit fix
+```
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Run:
+```bash
+ng serve --port 4230 --open
+```
