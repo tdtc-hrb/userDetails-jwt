@@ -39,8 +39,13 @@ npm install --save karma-jasmine
 npm install --save karma-jasmine-html-reporter
 ```
 
+fix audit:
 ```bash
 npm audit fix
+```
+or
+```
+npm audit fix --force
 ```
 
 Run:
