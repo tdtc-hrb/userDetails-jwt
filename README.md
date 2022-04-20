@@ -46,8 +46,12 @@ or
 npm audit fix --force
 ```
 
-Run:
+## Run
+warrant:    
+[web browser](https://localhost:7087/login)
+
+
+afterwards:
 ```bash
 ng serve --port 4230 --open
 ```
-
