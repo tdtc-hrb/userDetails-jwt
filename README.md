@@ -5,10 +5,8 @@ Same as [postman and curl](https://github.com/tdtc-hrb/UserDetails-jwt#test) tes
 
 - NodeJS    
 [v16.x](https://nodejs.org/dist/latest-v16.x/)
-- Angular Cli    
-```bash
-npm install -g @angular/cli
-```
+- [Angular](https://tdtc-hrb.github.io/cnblogs/post/js-angular-app/)
+
 
 ## Deploy
 ```bash
@@ -52,3 +50,4 @@ Run:
 ```bash
 ng serve --port 4230 --open
 ```
+
