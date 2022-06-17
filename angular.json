@@ -3,11 +3,32 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "UserDetails-jwt-client": {
+    "userDetails-jwt-client": {
       "projectType": "application",
       "schematics": {
-        "@schematics/angular:application": {
-          "strict": true
+        "@schematics/angular:class": {
+          "skipTests": true
+        },
+        "@schematics/angular:component": {
+          "skipTests": true
+        },
+        "@schematics/angular:directive": {
+          "skipTests": true
+        },
+        "@schematics/angular:guard": {
+          "skipTests": true
+        },
+        "@schematics/angular:interceptor": {
+          "skipTests": true
+        },
+        "@schematics/angular:pipe": {
+          "skipTests": true
+        },
+        "@schematics/angular:resolver": {
+          "skipTests": true
+        },
+        "@schematics/angular:service": {
+          "skipTests": true
         }
       },
       "root": "",
@@ -68,10 +89,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "UserDetails-jwt-client:build:production"
+              "browserTarget": "userDetails-jwt-client:build:production"
             },
             "development": {
-              "browserTarget": "UserDetails-jwt-client:build:development"
+              "browserTarget": "userDetails-jwt-client:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -79,7 +100,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "UserDetails-jwt-client:build"
+            "browserTarget": "userDetails-jwt-client:build"
           }
         },
         "test": {
@@ -101,6 +122,5 @@
         }
       }
     }
-  },
-  "defaultProject": "UserDetails-jwt-client"
+  }
 }
