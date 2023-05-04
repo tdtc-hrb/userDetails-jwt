@@ -7,7 +7,7 @@ import { SigninModel } from "./signin.model";
     providedIn: 'root'
 })
 export class SigninService {
-    url_dotnet_jwt = "https://localhost:7087/login";
+    url_dotnet_jwt = "https://192.168.0.104:7087/login";
 
     constructor(private http : HttpClient) { }
 
