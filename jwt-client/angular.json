@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "userDetails-jwt-client": {
+    "jwt-client": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:class": {
@@ -41,7 +41,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/user-details-jwt-client",
+            "outputPath": "dist/jwt-client",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -87,10 +87,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "userDetails-jwt-client:build:production"
+              "buildTarget": "jwt-client:build:production"
             },
             "development": {
-              "buildTarget": "userDetails-jwt-client:build:development"
+              "buildTarget": "jwt-client:build:development"
             }
           },
           "defaultConfiguration": "development"
