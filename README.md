@@ -28,13 +28,13 @@ connects your Angular project to Cordova
 ## run
 Gen Angular dist files:
 ```
-cd client
+cd jwt-client
 ng build --output-path=../AppWrapper/www --base-href=./
 ```
 
 ### verify
 - [browser](http://localhost:4230/browser/index.html)
 ```
-cd AppWrap
+cd AppWrapper
 cordova run browser --port=4230
 ```
