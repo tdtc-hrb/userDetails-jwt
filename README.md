@@ -36,5 +36,6 @@ ng build --output-path=../AppWrapper/www --base-href=./
 - [browser](http://localhost:4230/browser/index.html)
 ```
 cd AppWrapper
+cordova platform add browser
 cordova run browser --port=4230
 ```
